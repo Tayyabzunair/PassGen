@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "PassGen",
+  "version": "1.0.0",
+  "description": "Cryptographically secure password generator with Supabase uniqueness check.",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+
+  "permissions": [
+    "clipboardWrite"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "securepass@extension",
+      "strict_min_version": "109.0"
+    }
+  }
+}
