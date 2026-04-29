@@ -1,4 +1,4 @@
-# PassGen
+# entropyX
 
 A cryptographically secure password generator with uniqueness enforcement via SHA-256 hashing and Supabase storage. Available as both a Python CLI script and a cross-browser extension (Chrome + Firefox).
 
